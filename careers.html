@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-[#F2F2F2] items-center w-[100%] h-[90px] pt-4 drop-shadow-lg  fixed">
+        <nav class="flex align-center items-center justify-center gap-[115px]">
+            <div class="w-[70px]"><img src="/images/mentorsol_logo (1).jpeg" alt="mentorSol-logo" ></div>
+            <div>
+                <ul class="flex items-center gap-10  font-semibold  ">
+                    <li><a href="/index.html" class="focus:text-gray-400">Home</a></li>
+                    <li><a href="/pages/AboutUs.html" class="focus:text-gray-400">About Us</a></li>
+                    <li><a href="#">What We Offer</a></li>
+                    <li><a href="#">Hire Top Talent</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class=" hover:bg-gray-700 hover:scale-110 w-[180px] text-center flex text-white rounded-lg  justify-center items-center h-[40px] bg-[#318B43]"><button >Hire A MentorPro</button></div>
+        </nav>
+    </header>
+    <main>
+        <section class="text-center"> 
+        <h1 class="text-[#034751]  text-4xl font-bold pt-36 leading-[60px]">Thrive and Expand Your Career with <br>
+            MentorSol</h1>
+            <h2 class="pt-12 text-4xl font-bold text-[#318B43]">Why Choose MentorSol?</h2>
+            <p class="pt-8 ">At MentorSol, we stand as a pioneering custom software development firm, crafting impactful digital solutions and <br> creating immersive digital experiences. What sets us apart isn’t just our skill set, but the array of benefits we bring to <br> our clients. Our approach thrives on the synergy of our skilled software developers and their exceptional abilities, <br> where cross-functional collaboration meets continuous improvement. We don’t merely provide a team of seasoned <br> software developers; we offer an investment in our clients’ success</p>
+            <p class="pt-8 text-[#034751] text-xl font-bold">For tech enthusiasts, creative minds, developers, and those who value freedom of <br> thought, this is your destination.</p>
+        </section>
+
+
+        <section class="pt-16">
+            <h1 class="text-center text-4xl font-bold">Discover Opportunities</h1>
+            <p class="text-center pt-6 font-semibold text-lg">Explore the list of current job openings and apply for roles tailored to your unique skill set.<p>
+
+        </section>
+
+
+
+        <!------------------------------------------------------  -->
+        <section class="hiring my-12">
+            <div class=" flex bg-[#F6F6F6] w-[1100px] h-[180px] m-auto justify-between items-center px-8 rounded-xl">
+                <div class="">
+                    <h1 class="text-[#034751] font-bold text-lg">Senior React Developer</h1>
+                    <p class="font-bold py-4">Experience</p>
+                    <p class="font-bold">Min 3 +</p>
+                </div>
+                <div>
+                    <p class="font-bold py-4 text-lg">Positions</p>
+                    <p class="font-bold py-4 text-lg">1</p>
+                </div>
+                <div class="gap-5 flex">
+                    <button class="bg-white text-[#034751] py-2 px-6 font-semibold rounded-full  hover:bg-gray-700 hover:scale-110 hover:text-white">View Details</button>
+                    <button class="bg-[#318B43] py-2 px-6 font-semibold text-white rounded-full  hover:bg-gray-700 hover:scale-110" onclick="ApllyForQuiz()">Apply Now</button>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+</body>
+<script>
+    const ApllyForQuiz = ()=>{
+window.location.assign("/quiz.html")
+    }
+</script>
+</html>

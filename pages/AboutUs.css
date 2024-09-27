@@ -1,0 +1,14 @@
+
+.feedBack{
+    margin-top: 10px;
+    background-color: #318B43;
+    width: 500px;
+    border-radius: 8px;
+    padding: 8px;
+    color: WHITE;
+    
+}
+.userfeedback{
+    font-weight: bold;
+    text-decoration:underline;
+}
